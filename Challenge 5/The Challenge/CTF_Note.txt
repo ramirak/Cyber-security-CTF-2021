@@ -1,0 +1,14 @@
+The files are already encrypted and ready for the ctf.
+
+You can not execute the cryptor directly by running the exe..
+It is compiled with linux gcc and can run on terminal with ./minecraft.exe and should be placed in the main directory where all the folders are..
+Same goes for the decryptor.. (should be placed in the main challenge5 folder)..
+
+If there is any problem running it please compile by - 
+
+gcc CryptoRami.c -o Minecraft.exe
+------------------------------------------------
+Note that any file in "importantFiles" directory will be encrypted..
+Any changes to the file names after encryption will result in problems while trying to decrypt..
+
+- Tested on wsl ubuntu (windows subsystem linux)
